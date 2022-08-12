@@ -1,11 +1,20 @@
-body {
+#heading {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    font-weight: 500;
+    text-decoration: solid;
+    font-size: 50px;
+    background-color: blueviolet;
+    color: silver;
+}
+
+#main {
     background-color: blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-
-    
+    height: 80vh;
 }
 h1 {
     color: white;
@@ -44,3 +53,4 @@ h1 {
 #reset {
     background-color: blue;
 }
+
